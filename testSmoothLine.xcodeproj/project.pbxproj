@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60E9A5A11577DF88004234E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E9A5A01577DF88004234E2 /* UIKit.framework */; };
+		60E9A5A31577DF88004234E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E9A5A21577DF88004234E2 /* Foundation.framework */; };
+		60E9A5A51577DF88004234E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E9A5A41577DF88004234E2 /* CoreGraphics.framework */; };
+		60E9A5AB1577DF89004234E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60E9A5A91577DF89004234E2 /* InfoPlist.strings */; };
+		60E9A5AD1577DF89004234E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E9A5AC1577DF89004234E2 /* main.m */; };
+		60E9A5B11577DF89004234E2 /* testSmoothLineAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E9A5B01577DF89004234E2 /* testSmoothLineAppDelegate.m */; };
+		60E9A5B71577DF89004234E2 /* testSmoothLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E9A5B61577DF89004234E2 /* testSmoothLineViewController.m */; };
+		60E9A5C615780446004234E2 /* lineSmooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E9A5C515780446004234E2 /* lineSmooth.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		60E9A59C1577DF88004234E2 /* testSmoothLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testSmoothLine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60E9A5A01577DF88004234E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		60E9A5A21577DF88004234E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		60E9A5A41577DF88004234E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		60E9A5A81577DF88004234E2 /* testSmoothLine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testSmoothLine-Info.plist"; sourceTree = "<group>"; };
+		60E9A5AA1577DF89004234E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		60E9A5AC1577DF89004234E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60E9A5AE1577DF89004234E2 /* testSmoothLine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testSmoothLine-Prefix.pch"; sourceTree = "<group>"; };
+		60E9A5AF1577DF89004234E2 /* testSmoothLineAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testSmoothLineAppDelegate.h; sourceTree = "<group>"; };
+		60E9A5B01577DF89004234E2 /* testSmoothLineAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testSmoothLineAppDelegate.m; sourceTree = "<group>"; };
+		60E9A5B51577DF89004234E2 /* testSmoothLineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testSmoothLineViewController.h; sourceTree = "<group>"; };
+		60E9A5B61577DF89004234E2 /* testSmoothLineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testSmoothLineViewController.m; sourceTree = "<group>"; };
+		60E9A5C415780446004234E2 /* lineSmooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lineSmooth.h; sourceTree = "<group>"; };
+		60E9A5C515780446004234E2 /* lineSmooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lineSmooth.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60E9A5991577DF88004234E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E9A5A11577DF88004234E2 /* UIKit.framework in Frameworks */,
+				60E9A5A31577DF88004234E2 /* Foundation.framework in Frameworks */,
+				60E9A5A51577DF88004234E2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60E9A5911577DF88004234E2 = {
+			isa = PBXGroup;
+			children = (
+				60E9A5A61577DF88004234E2 /* testSmoothLine */,
+				60E9A59F1577DF88004234E2 /* Frameworks */,
+				60E9A59D1577DF88004234E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60E9A59D1577DF88004234E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60E9A59C1577DF88004234E2 /* testSmoothLine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60E9A59F1577DF88004234E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60E9A5A01577DF88004234E2 /* UIKit.framework */,
+				60E9A5A21577DF88004234E2 /* Foundation.framework */,
+				60E9A5A41577DF88004234E2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60E9A5A61577DF88004234E2 /* testSmoothLine */ = {
+			isa = PBXGroup;
+			children = (
+				60E9A5AF1577DF89004234E2 /* testSmoothLineAppDelegate.h */,
+				60E9A5B01577DF89004234E2 /* testSmoothLineAppDelegate.m */,
+				60E9A5B51577DF89004234E2 /* testSmoothLineViewController.h */,
+				60E9A5B61577DF89004234E2 /* testSmoothLineViewController.m */,
+				60E9A5C415780446004234E2 /* lineSmooth.h */,
+				60E9A5C515780446004234E2 /* lineSmooth.m */,
+				60E9A5A71577DF88004234E2 /* Supporting Files */,
+			);
+			path = testSmoothLine;
+			sourceTree = "<group>";
+		};
+		60E9A5A71577DF88004234E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60E9A5A81577DF88004234E2 /* testSmoothLine-Info.plist */,
+				60E9A5A91577DF89004234E2 /* InfoPlist.strings */,
+				60E9A5AC1577DF89004234E2 /* main.m */,
+				60E9A5AE1577DF89004234E2 /* testSmoothLine-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60E9A59B1577DF88004234E2 /* testSmoothLine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60E9A5BD1577DF89004234E2 /* Build configuration list for PBXNativeTarget "testSmoothLine" */;
+			buildPhases = (
+				60E9A5981577DF88004234E2 /* Sources */,
+				60E9A5991577DF88004234E2 /* Frameworks */,
+				60E9A59A1577DF88004234E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testSmoothLine;
+			productName = testSmoothLine;
+			productReference = 60E9A59C1577DF88004234E2 /* testSmoothLine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60E9A5931577DF88004234E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "università di Trento";
+			};
+			buildConfigurationList = 60E9A5961577DF88004234E2 /* Build configuration list for PBXProject "testSmoothLine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 60E9A5911577DF88004234E2;
+			productRefGroup = 60E9A59D1577DF88004234E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60E9A59B1577DF88004234E2 /* testSmoothLine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60E9A59A1577DF88004234E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E9A5AB1577DF89004234E2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60E9A5981577DF88004234E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E9A5AD1577DF89004234E2 /* main.m in Sources */,
+				60E9A5B11577DF89004234E2 /* testSmoothLineAppDelegate.m in Sources */,
+				60E9A5B71577DF89004234E2 /* testSmoothLineViewController.m in Sources */,
+				60E9A5C615780446004234E2 /* lineSmooth.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		60E9A5A91577DF89004234E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60E9A5AA1577DF89004234E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60E9A5BB1577DF89004234E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60E9A5BC1577DF89004234E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60E9A5BE1577DF89004234E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testSmoothLine/testSmoothLine-Prefix.pch";
+				INFOPLIST_FILE = "testSmoothLine/testSmoothLine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		60E9A5BF1577DF89004234E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testSmoothLine/testSmoothLine-Prefix.pch";
+				INFOPLIST_FILE = "testSmoothLine/testSmoothLine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60E9A5961577DF88004234E2 /* Build configuration list for PBXProject "testSmoothLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60E9A5BB1577DF89004234E2 /* Debug */,
+				60E9A5BC1577DF89004234E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60E9A5BD1577DF89004234E2 /* Build configuration list for PBXNativeTarget "testSmoothLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60E9A5BE1577DF89004234E2 /* Debug */,
+				60E9A5BF1577DF89004234E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60E9A5931577DF88004234E2 /* Project object */;
+}
